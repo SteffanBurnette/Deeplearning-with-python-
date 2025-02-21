@@ -20,4 +20,4 @@ for i in range(k):
 model.fit(partial_train_data, partial_train_targets,
  epochs=num_epochs, batch_size=16, verbose=0)
 val_mse, val_mae = model.evaluate(val_data, val_targets, verbose=0)
-all_scores.append(val_mae)
+all_scores.append(val_mae)   
