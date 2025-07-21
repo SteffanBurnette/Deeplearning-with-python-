@@ -1,5 +1,5 @@
 import numpy as np
-#K-fold Cross Validations..
+#K-fold Cross Validations.
 k = 4
 num_val_samples = len(train_data) // k #Making k partitionss
 num_epochs = 500
