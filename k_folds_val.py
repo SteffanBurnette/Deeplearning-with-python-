@@ -1,7 +1,7 @@
 import numpy as np
 #K-fold Cross Validations.
 k = 4
-num_val_samples = len(train_data) // k #Making k partitionss
+num_val_samples = len(train_data) // k #Making k partitions
 num_epochs = 500
 all_scores = []
 for i in range(k):
